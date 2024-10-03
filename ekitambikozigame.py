@@ -9,8 +9,6 @@ herdthree=14
 cows = [herdone,herdtwo,herdthree]
 players = [playerone,playertwo,playerthree]
 
-wendy=False
-
 playerone_index = 0
 playertwo_index = 0
 playerthree_index = 0
@@ -34,16 +32,19 @@ for eachplayer in players:
                 herdone=int(herdone)-int(playerherd)
                 print(herdone)
                 playerone_index+=1
-                if herdone ==0 and herdtwo==0 and herdthree==0:
-                    print("playerone wins")
+        if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                    print("playerone wins please take Wendy")
+                    exit()
 
         elif selectedherd=="2":
             playerherd =input("PLAYER 1 how many cows are you taking from herd two:"+str(herdtwo))
             herdtwo=int(herdtwo)-int(playerherd)
             print(herdtwo)
             playerone_index+=1
-            if herdone ==0 and herdtwo==0 and herdthree==0:
-                    print("playerone wins")
+        if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                 print("playerone wins please take Wendy")
+                 exit()
+                 
 
 
         elif selectedherd =="3":
@@ -52,8 +53,9 @@ for eachplayer in players:
             print(herdthree)
             playerone_index+=1
 
-            if herdone ==0 and herdtwo==0 and herdthree==0:
-                    print("playerone is the winner")
+        if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                    print("playerone is the winner please take Wendy")
+                    exit()
     
             
 
@@ -71,16 +73,18 @@ for eachplayer in players:
                 herdone=int(herdone)-int(playerherd)
                 print(herdone)
                 playertwo_index+=1
-                if herdone ==0 and herdtwo==0 and herdthree==0:
-                    print("playerone wins")
+        if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                    print("playertwo wins please take Wendy")
+                    exit()
 
         elif selectedherd=="2":
             playerherd =input("PLAYER 2  how many cows are you taking from herd two:"+str(herdtwo))
             herdtwo=int(herdtwo)-int(playerherd)
             print(herdtwo)
             playertwo_index+=1
-            if herdone ==0 and herdtwo==0 and herdthree==0:
-                    print("playerone wins")
+        if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                    print("playertwo wins please take Wendy")
+                    exit()
 
 
         elif selectedherd =="3":
@@ -88,8 +92,9 @@ for eachplayer in players:
             herdthree=int(herdthree)-int(playerherd)
             print(herdthree)
             playertwo_index+=1
-            if herdone ==0 and herdtwo==0 and herdthree==0:
-                    print("playerone is the winner")
+        if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                    print("playertwo is the winner please take Wendy")
+                    exit()
 
 
 
@@ -107,16 +112,18 @@ for eachplayer in players:
             herdone=int(herdone)-int(playerherd)
             print(herdone)
             playerthree_index+=1
-            if herdone ==0 and herdtwo==0 and herdthree==0:
-                  print("playerone wins")
+     if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                  print("playerthree wins please take Wendy")
+                  exit()
 
      elif selectedherd=="2":
            playerherd =input("PLAYER 3 how many cows are you taking from herd two:"+str(herdtwo))
            herdtwo=int(herdtwo)-int(playerherd)
            print(herdtwo)
            playerthree_index+=1
-           if herdone ==0 and herdtwo==0 and herdthree==0:
-                  print("playerone wins")
+     if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                  print("playerthree wins please take Wendy")
+                  exit()
 
 
      elif selectedherd =="3":
@@ -124,8 +131,9 @@ for eachplayer in players:
            herdthree=int(herdthree)-int(playerherd)
            print(herdthree)
            playerthree_index+=1
-           if herdone ==0 and herdtwo==0 and herdthree==0:
-                  print("playerone is the winner")
+     if int(herdone) ==0 and int(herdtwo)==0 and int(herdthree)==0:
+                  print("playerthree is the winner please take Wendy")
+                  exit()
 
 
 
